@@ -3,5 +3,8 @@
   "description": "A barebones Node.js app using Express 4",
   "repository": "https://github.com/heroku/button-sample",
   "logo": "http://node-js-sample.herokuapp.com/node.svg",
-  "keywords": ["node", "express", "static"]
+  "keywords": ["node", "express", "static"],
+  "scripts": {
+    "postdeploy": "echo Hello, World"
+  }
 }
