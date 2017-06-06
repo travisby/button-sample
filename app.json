@@ -6,5 +6,10 @@
   "keywords": ["node", "express", "static"],
   "scripts": {
     "postdeploy": "echo Hello, World"
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1
+    }
   }
 }
