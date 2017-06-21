@@ -1,4 +1,4 @@
 language: node_js
 node_js:
         - "7"
-script: sleep 5
+script: sleep 60 && exit 1
